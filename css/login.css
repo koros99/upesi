@@ -1,0 +1,31 @@
+.form-control{
+  width: 70%;
+  margin-left: 15%;
+}
+label{
+  margin-left: 15%;
+  margin-top: 6%;
+}
+#password{
+  margin-bottom: 6%;
+}
+#signin{
+  margin-left: 45%;
+  margin-bottom: 6%;
+}
+.content{
+  margin-top: 7%;
+  width: 50%;
+  border: 0.01em solid grey;
+}
+#content h3{
+  text-align: center;
+}
+.signup{
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+.signup a{
+  color: white;
+}

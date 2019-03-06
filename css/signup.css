@@ -1,0 +1,18 @@
+.content{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 6%;
+  border: 0.01em solid grey;
+}
+.form-group{
+  width: 70%;
+}
+.container{
+  margin-left: 15%;
+}
+.stuff{
+  padding: 0.67em;
+}
+#signup{
+  background-color: rgb(165, 134, 67)
+}
