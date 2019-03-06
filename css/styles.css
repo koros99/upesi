@@ -1,0 +1,69 @@
+/* html{
+  height: 100%;
+} */
+body{
+  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://i1.wp.com/www.yummy.co.ke/wp-content/uploads/2017/08/choma.png?resize=720%2C480");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+}
+
+.jumbotron{
+  color: black;
+  clear: both;
+  font-family: 'Abril Fatface', cursive;
+  font-family: 'Baloo', cursive;
+  font-family: 'Bree Serif', serif;
+  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Fredoka One', cursive;
+
+}
+
+ul{
+  list-style-type: none;
+  float: right;
+}
+
+ul>li{
+  display: inline-block;
+  padding: 20px;
+}
+
+ul>li>a:hover{
+  text-decoration: none;
+  color: yellow;
+}
+
+#ser,#serb{
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#serb{
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#get{
+  margin-top: 60px;
+  text-align: center;
+  background-color: #5D4037;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  margin-left: 40%;
+}
+
+p{
+  text-align: center;;
+}
+
+#img{
+  float: right;
+}
+
+#img2{
+  float: right;
+}
