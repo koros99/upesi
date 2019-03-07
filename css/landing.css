@@ -38,10 +38,6 @@ nav>ul>li>a:hover {
   color: white;
   text-decoration: none;
 }
-/* nav>ul>li>a:focus {
-  width: 200px;
-  text-decoration: none;
-} */
 .navig{
   float: left;
 }

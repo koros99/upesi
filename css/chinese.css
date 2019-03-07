@@ -3,10 +3,50 @@ body{
 }
 .jumbotron{
   background-image: url("../img/slide4-1459x630.jpg");
-  height: 300px;
+  height: 450px;
   background-size: cover;
   font-size: 10px;
 }
+
+a:active {
+  background-color: pink;
+}
+li{
+  display:inline-block;
+}
+nav ul{
+  padding-left: 300px;
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+nav li{
+  display:inline-block;
+  font-size: 22px;
+  font-family: 'Exo', sans-serif;
+  margin-left: 30px;
+}
+nav>ul>li>a {
+  padding: 4px;
+  margin-right: 0;
+  text-transform: uppercase;
+  display: block;
+  color: white;
+}
+nav>ul>li>a:hover {
+  background: #F57F17;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+.navig{
+  float: left;
+}
+  .logo{
+    height: 100px;
+    width: 200px;
+    margin-left: 0px;
+  }
 
 img{
   height: 160px;
