@@ -2,11 +2,12 @@ body{
   font-family: 'Exo', sans-serif;
 }
 .jumbotron{
-  background-image: url('../img/bg.png');
+  background-image: url("../img/slide4-1459x630.jpg");
   height: 300px;
   background-size: cover;
   font-size: 10px;
 }
+
 img{
   height: 160px;
   width: 250px;
@@ -73,7 +74,7 @@ input[type=text] {
   border: 1px solid grey;
   margin-top: 10px;
   margin-bottom: 16px;
-  margin-left: 10px;
+  margin-left: 60px;
   font-family: 'Exo', sans-serif;
 }
 button {

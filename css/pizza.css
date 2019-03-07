@@ -7,7 +7,11 @@ body{
   background-size: cover;
   font-size: 10px;
 }
-img{
+.one{
+  height: 150px;
+  width: 250px;
+}
+.logo1{
   height: 160px;
   width: 250px;
   border-radius: 5px;
@@ -57,6 +61,9 @@ img{
   color: #080808;
   font-family: 'Exo', sans-serif;
 }
+.price{
+  position: r;
+}
 .price p{
   text-align: right;
   font-size: 20px;
@@ -73,7 +80,7 @@ input[type=text] {
   border: 1px solid grey;
   margin-top: 10px;
   margin-bottom: 16px;
-  margin-left: 10px;
+  margin-left: 60px;
   font-family: 'Exo', sans-serif;
 }
 button {
