@@ -5,6 +5,8 @@
   <title>Meat And Grill</title>
   <link rel="stylesheet" href="css/grill.css">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/scripts.js" charset="utf-8"></script>
+  <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
 </head>
 <body>
@@ -46,7 +48,7 @@
       <br><br>
       <div class="prizes">
       <form>
-        <input type="text" placeholder="Search.." name="search">
+        <input type="text" name="search" value="" autocomplete="off" id="myinput" onkeyup="searchFunction()" >
         <button type="submit"><span class="glyphicon glyphicon-search"></span></i></button>
       </form>
       <div id="mbuzi">
@@ -54,15 +56,15 @@
         <p>Sweet Aroma</p>
         <div class="price">
      <p>Quarter Kg:200 Ksh
-       <button type="button" name="button" class="btn btn-info btn-lg">
+       <button id="1" type="button" name="button" class="btn btn-info btn-lg" onclick="eric()">
          <span class="glyphicon glyphicon-plus-sign"></span></button>
      </p>
      <p>Half Kg:     350 Ksh
-       <button type="button" name="button" class="btn btn-info btn-lg">
+       <button type="button" name="button" class="btn btn-info btn-lg" onclick="marvo()">
          <span class="glyphicon glyphicon-plus-sign"></span></button>
      </p>
      <p>Full Kg:700 Ksh
-       <button type="button" name="button" class="btn btn-info btn-lg">
+       <button type="button" name="button" class="btn btn-info btn-lg" onclick="marvo2()">
          <span class="glyphicon glyphicon-plus-sign"></span></button>
      </p>
    </div>
@@ -72,7 +74,7 @@
         <p>Amazing  Aroma</p>
         <div class="price">
      <p>Quarter Kg:200 Ksh
-       <button type="button" name="button" class="btn btn-info btn-lg">
+       <button type="button" name="button" class="btn btn-info btn-lg" onclick="marvo3()">
          <span class="glyphicon glyphicon-plus-sign"></span></button>
      </p>
      <p>Half Kg:     350 Ksh
@@ -186,9 +188,10 @@
           </div>
           <div class="panel-body">
             <ul>
-              <li></li>
-              <li></li>
-              <li></li>
+              <li> <span id="order1"></span> </li><br>
+              <li> <span id="order2"></span> </li><br>
+              <li><span id="order3"></span> </li><br>
+              <li><span id="order4"></span> </li><br>
             </ul>
           </div>
           <div class="panel-footer">
