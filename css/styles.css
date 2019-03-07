@@ -1,69 +1,85 @@
-/* html{
-  height: 100%;
-} */
 body{
-  background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://i1.wp.com/www.yummy.co.ke/wp-content/uploads/2017/08/choma.png?resize=720%2C480");
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: white;
-  font-size: 20px;
+  font-family: 'Exo', sans-serif;
 }
-
 .jumbotron{
-  color: black;
-  clear: both;
-  font-family: 'Abril Fatface', cursive;
-  font-family: 'Baloo', cursive;
-  font-family: 'Bree Serif', serif;
-  font-family: 'Luckiest Guy', cursive;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Fredoka One', cursive;
-
+  background-image: url('../img/pizza.jpeg');
+  height: 450px;
+  background-size: cover;
+  font-size: 10px;
 }
-
-ul{
-  list-style-type: none;
-  float: right;
+a:active {
+  background-color: pink;
 }
-
-ul>li{
-  display: inline-block;
-  padding: 20px;
+li{
+  display:inline-block;
 }
-
-ul>li>a:hover{
+nav ul{
+  padding-left: 300px;
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+}
+nav li{
+  display:inline-block;
+  font-size: 22px;
+  font-family: 'Exo', sans-serif;
+  margin-left: 30px;
+}
+nav>ul>li>a {
+  padding: 4px;
+  margin-right: 0;
+  text-transform: uppercase;
+  display: block;
+  color: white;
+}
+nav>ul>li>a:hover {
+  background: #F57F17;
+  border-radius: 4px;
+  color: white;
   text-decoration: none;
-  color: yellow;
 }
-
-#ser,#serb{
-  padding: 5px;
-  border-radius: 10px;
-}
-
-#serb{
-  padding: 5px;
-  border-radius: 10px;
-}
-
-#get{
-  margin-top: 60px;
-  text-align: center;
-  background-color: #5D4037;
-  border-radius: 10px;
-  padding: 10px;
+/* nav>ul>li>a:focus {
   width: 200px;
-  margin-left: 40%;
+  text-decoration: none;
+} */
+.navig{
+  float: left;
 }
+  .logo{
+    height: 150px;
+    width: 300px;
+  }
+  form{
+    margin-left:300px;
+  }
+  input[type=text] {
+    width: 45%;
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    margin-left: 10px;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+  }
+  button {
+    padding: 12px;
+    border: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
 
-p{
-  text-align: center;;
+  }
+  .intro{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 50px;
+  }
+span{
+  color: #F57F17;
 }
-
-#img{
-  float: right;
-}
-
-#img2{
-  float: right;
+.forder{
+  width: 600px;
 }
