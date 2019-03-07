@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/login.css" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/login.js"></script>
     <title>Login | Upesi</title>
   </head>
   <body>
@@ -11,12 +13,14 @@
         <h3>Please login or <a href="signup.html">sign up</a> to continue</h3>
         <form id="login">
           <div class="form-group">
-            <label for="email">Email or Phone</label>
+            <label for="email"><strong>Email or Phone*</strong></label>
             <input type="text" id="email" class="form-control">
+            <span id="empty1">Please fill this field</span>
           </div>
           <div class="form-group">
-            <label for="password">Password</label>
+            <label for="password"><strong>Password*</strong></label>
             <input type="password" id="password" class="form-control">
+            <span id="empty2">Please fill this field</span>
           </div>
         </form>
         <button id="signin" type="submit" class="btn btn-success">Login</button>

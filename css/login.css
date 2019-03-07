@@ -6,9 +6,6 @@ label{
   margin-left: 15%;
   margin-top: 6%;
 }
-#password{
-  margin-bottom: 6%;
-}
 #signin{
   margin-left: 45%;
   margin-bottom: 6%;
@@ -28,4 +25,10 @@ label{
 }
 .signup a{
   color: white;
+}
+#empty1, #empty2{
+  display: none;
+  font-size: 0.9em;
+  margin-left: 20%;
+  color: #1c64d8;
 }
