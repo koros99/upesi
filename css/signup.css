@@ -16,3 +16,42 @@
 #signup{
   background-color: rgb(165, 134, 67)
 }
+a:active {
+  background-color: pink;
+}
+li{
+  display:inline-block;
+}
+nav ul{
+  padding-left: 300px;
+  margin: 0px;
+  display:inline-block;
+  vertical-align:top;
+  background-color: #3a2717;
+}
+nav li{
+  display:inline-block;
+  font-size: 22px;
+  font-family: 'Exo', sans-serif;
+  margin-left: 30px;
+}
+nav>ul>li>a {
+  padding: 4px;
+  margin-right: 0;
+  text-transform: uppercase;
+  display: block;
+  color: white;
+}
+nav>ul>li>a:hover {
+  background: #F57F17;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+}
+.navig{
+  float: left;
+}
+.logo{
+  height: 150px;
+  width: 300px;
+}

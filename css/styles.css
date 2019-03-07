@@ -45,38 +45,38 @@ nav>ul>li>a:hover {
 .navig{
   float: left;
 }
-  .logo{
-    height: 150px;
-    width: 300px;
-  }
-  form{
-    margin-left:300px;
-  }
-  input[type=text] {
-    width: 45%;
-    padding: 12px;
-    border: 1px solid grey;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    margin-left: 10px;
-    font-family: 'Exo', sans-serif;
-    font-size: 15px;
-  }
-  button {
-    padding: 12px;
-    border: 1px solid grey;
-    margin-top: 10px;
-    margin-bottom: 16px;
-    font-family: 'Exo', sans-serif;
-    font-size: 15px;
+.logo{
+  height: 150px;
+  width: 300px;
+}
+form{
+  margin-left:300px;
+}
+input[type=text] {
+  width: 45%;
+  padding: 12px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  font-family: 'Exo', sans-serif;
+  font-size: 15px;
+}
+button {
+  padding: 12px;
+  border: 1px solid grey;
+  margin-top: 10px;
+  margin-bottom: 16px;
+  font-family: 'Exo', sans-serif;
+  font-size: 15px;
 
-  }
-  .intro{
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    margin: 50px;
-  }
+}
+.intro{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  margin: 50px;
+}
 span{
   color: #F57F17;
 }
