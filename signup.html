@@ -3,16 +3,23 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap1.css" type="text/css">
     <link rel="stylesheet" href="css/signup.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <title>Sign Up | Upesi</title>
   </head>
   <body>
-    <nav>
+    <nav id="navig">
       <a href="landing.html"><img src="img/logo.png" class="logo" alt="logo"></a>
       <ul>
-        <li><a href="login.html">LOGIN</a></li>
-        <li><a href="signup.html">SIGN UP</a></li>
-        <li><a href="#">HOTELS</a></li>
-        <li><a href="contacts.html">CONTACTS</a></li>
+        <li><a href="login.html">LOG IN</a></li>
+        <li><a href="signup.html">SIGN UP</a> </li>
+        <li><a href="#">HOTELS</a>
+          <ul>
+            <li><a href="chinese.html">Chu Yon </a></li>
+            <li><a href="pizza.html">Pizza Joint</a></li>
+            <li><a href="grill.html">Meat and Grill</a></li>
+          </ul>
+        <li><a href="contacts.html">CONTACTS</a> </li>
       </ul>
     </nav>
     <div class="content">
@@ -40,7 +47,7 @@
             <input type="password" id="password" class="form-control">
           </div>
         </form>
-        <button id="signup" class="btn">Sign Up</button>
+        <button id="signup" class="btn" href="signup.html">Sign Up</button>
       </div>
     </div>
   </body>

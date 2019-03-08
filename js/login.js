@@ -24,5 +24,7 @@ $(document).ready(function() {
       $("#empty1").hide();
       $("#empty2").hide();
     }
+
+
   });
 });
